@@ -1,8 +1,8 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
-LINUX_VERSION ?= "4.8.2"
+LINUX_VERSION ?= "4.8.6"
 
-SRCREV = "0105b0ea92b1614ac00329a530da940053e64a4a"
+SRCREV = "6927ac4dfe2dddffb55c5c12ba072aff5d312f4e"
 SRC_URI = "git://github.com/raspberrypi/linux.git;branch=rpi-4.8.y"
 
 KERNEL_DEFCONFIG_raspberrypi2 = "bcmrpi3_defconfig"
